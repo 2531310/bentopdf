@@ -50,16 +50,16 @@ html {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: #111827;
-  color: #d1d5db;
+  background-color: #ffffff;
+  color: #111827;
 }
 
 .tool-card {
   transition:
     transform 0.2s ease-in-out,
     box-shadow 0.2s ease-in-out;
-  border: 1px solid #374151;
-  background-color: #1f2937;
+  border: 1px solid #d1d5db;
+  background-color: #f9fafb;
   padding: 1.5rem;
   border-radius: 0.5rem;
   display: flex;
@@ -88,7 +88,7 @@ body {
 
 /* Custom file input */
 input[type='file']::file-selector-button {
-  @apply bg-indigo-600 text-white font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-indigo-700 transition-colors duration-200 mr-4;
+  @apply bg-indigo-600 text-#111827 font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-indigo-700 transition-colors duration-200 mr-4;
 }
 
 /* Custom scrollbar */
@@ -97,7 +97,7 @@ input[type='file']::file-selector-button {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1f2937;
+  background: #f9fafb;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -139,9 +139,9 @@ input[type='file']::file-selector-button {
   width: 100%;
   height: 75vh;
   overflow: auto;
-  border: 2px solid #374151;
+  border: 2px solid #d1d5db;
   border-radius: 0.5rem;
-  background-color: #1f2937;
+  background-color: #f9fafb;
 }
 
 /* This rule now ONLY applies to canvases in overlay mode */
@@ -164,9 +164,9 @@ input[type='file']::file-selector-button {
   min-width: 0;
   overflow: auto;
   height: 75vh;
-  border: 2px solid #374151;
+  border: 2px solid #d1d5db;
   border-radius: 0.5rem;
-  background-color: #1f2937;
+  background-color: #f9fafb;
 }
 
 /* This rule ensures canvases in side-by-side panels display at their natural rendered size. */
@@ -198,9 +198,9 @@ footer a {
 }
 
 .pill {
-  background-color: #374151;
+  background-color: #d1d5db;
   /* bg-gray-700 */
-  color: #d1d5db;
+  color: #111827;
   /* text-gray-300 */
   padding: 8px 16px;
   border-radius: 9999px;
@@ -212,7 +212,7 @@ footer a {
 .cta-button {
   background-color: #4f46e5;
   /* indigo-600 */
-  color: white;
+  color: #111827;
   font-weight: 600;
   padding: 12px 24px;
   border-radius: 8px;
@@ -232,7 +232,7 @@ footer a {
 }
 
 .feature-card {
-  background-color: #1f2937;
+  background-color: #f9fafb;
   /* bg-gray-800 */
   padding: 24px;
   border-radius: 8px;
@@ -241,11 +241,11 @@ footer a {
 }
 
 .nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors;
+  @apply text-gray-300 hover:bg-gray-700 hover:text-#111827 px-3 py-2 rounded-md text-sm font-medium transition-colors;
 }
 
 .mobile-nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-colors;
+  @apply text-gray-300 hover:bg-gray-700 hover:text-#111827 block px-3 py-2 rounded-md text-base font-medium transition-colors;
 }
 
 .marker-slanted {
@@ -286,7 +286,7 @@ footer a {
   background-image: linear-gradient(to bottom, #6366f1, #4f46e5);
   /* from-indigo-500 to-indigo-600 */
   color: #ffffff;
-  /* text-white */
+  /* text-#111827 */
   font-weight: 600;
   /* font-semibold */
   transition-property: all;
@@ -304,7 +304,7 @@ footer a {
   outline: 2px solid transparent;
   outline-offset: 2px;
   box-shadow:
-    0 0 0 2px #111827,
+    0 0 0 2px #ffffff,
     0 0 0 4px #818cf8;
   /* focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-indigo-400 */
 }
@@ -321,7 +321,7 @@ footer a {
   /* w-16 */
   height: 64px;
   /* h-16 */
-  border: 5px solid #374151;
+  border: 5px solid #d1d5db;
   /* border-gray-700 */
   border-bottom-color: #4f46e5;
   /* border-indigo-600 */
@@ -390,21 +390,21 @@ footer a {
 
 /* Testimonial Card Styles */
 .testimonial-card {
-  background-color: #1f2937;
+  background-color: #f9fafb;
   /* bg-gray-800 */
   padding: 24px;
   border-radius: 0.75rem;
   /* rounded-xl */
-  border: 1px solid #374151;
+  border: 1px solid #d1d5db;
   /* border-gray-700 */
   display: flex;
   flex-direction: column;
 }
 
 .pill {
-  background-color: #374151;
+  background-color: #d1d5db;
   /* bg-gray-700 */
-  color: #d1d5db;
+  color: #111827;
   /* text-gray-300 */
   padding: 8px 16px;
   border-radius: 9999px;
@@ -414,9 +414,9 @@ footer a {
 }
 
 .pill {
-  background-color: #374151;
+  background-color: #d1d5db;
   /* bg-gray-700 */
-  color: #d1d5db;
+  color: #111827;
   /* text-gray-300 */
   /* Smaller padding and font size by default for mobile */
   padding: 6px 12px;
@@ -442,7 +442,7 @@ footer a {
 @media (max-width: 1023px) {
   #form-fields-container {
     overflow-x: auto;
-    white-space: nowrap;
+    #111827-space: nowrap;
   }
 
   .form-field-group {
@@ -464,7 +464,7 @@ footer a {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
-  color: white;
+  color: #111827;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -539,11 +539,11 @@ button:disabled,
   font-size: 0.75rem;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   line-height: 1;
-  color: #e5e7eb;
-  background-color: #374151;
+  color: #d1d5db;
+  background-color: #d1d5db;
   border: 1px solid #4b5563;
   border-radius: 0.25rem;
-  box-shadow: 0 1px 0 0 #1f2937;
+  box-shadow: 0 1px 0 0 #f9fafb;
 }
 
 .shortcut-input {
@@ -563,7 +563,7 @@ button:disabled,
 }
 
 #shortcuts-list::-webkit-scrollbar-track {
-  background: #1f2937;
+  background: #f9fafb;
 }
 
 #shortcuts-list::-webkit-scrollbar-thumb {
