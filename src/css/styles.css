@@ -88,7 +88,7 @@ body {
 
 /* Custom file input */
 input[type='file']::file-selector-button {
-  @apply bg-indigo-600 text-#111827 font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-indigo-700 transition-colors duration-200 mr-4;
+  @apply bg-indigo-600 text-gray-900 font-semibold py-2 px-4 rounded-lg cursor-pointer hover:bg-indigo-700 transition-colors duration-200 mr-4;
 }
 
 /* Custom scrollbar */
@@ -241,11 +241,11 @@ footer a {
 }
 
 .nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-#111827 px-3 py-2 rounded-md text-sm font-medium transition-colors;
+  @apply text-gray-300 hover:bg-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors;
 }
 
 .mobile-nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-#111827 block px-3 py-2 rounded-md text-base font-medium transition-colors;
+  @apply text-gray-300 hover:bg-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium transition-colors;
 }
 
 .marker-slanted {
@@ -286,7 +286,7 @@ footer a {
   background-image: linear-gradient(to bottom, #6366f1, #4f46e5);
   /* from-indigo-500 to-indigo-600 */
   color: #ffffff;
-  /* text-#111827 */
+  /* text-gray-900 */
   font-weight: 600;
   /* font-semibold */
   transition-property: all;
