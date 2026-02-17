@@ -50,7 +50,7 @@ html {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: #ffffff;
+  background-color: #111827;
   color: #111827;
 }
 
@@ -201,7 +201,7 @@ footer a {
   background-color: #d1d5db;
   /* bg-gray-700 */
   color: #111827;
-  /* text-gray-300 */
+  /* text-gray-700 */
   padding: 8px 16px;
   border-radius: 9999px;
   /* rounded-full */
@@ -241,11 +241,11 @@ footer a {
 }
 
 .nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors;
+  @apply text-gray-700 hover:bg-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors;
 }
 
 .mobile-nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium transition-colors;
+  @apply text-gray-700 hover:bg-gray-700 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium transition-colors;
 }
 
 .marker-slanted {
@@ -285,7 +285,7 @@ footer a {
   /* rounded-lg */
   background-image: linear-gradient(to bottom, #6366f1, #4f46e5);
   /* from-indigo-500 to-indigo-600 */
-  color: #ffffff;
+  color: #111827;
   /* text-gray-900 */
   font-weight: 600;
   /* font-semibold */
@@ -304,7 +304,7 @@ footer a {
   outline: 2px solid transparent;
   outline-offset: 2px;
   box-shadow:
-    0 0 0 2px #ffffff,
+    0 0 0 2px #111827,
     0 0 0 4px #818cf8;
   /* focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-indigo-400 */
 }
@@ -405,7 +405,7 @@ footer a {
   background-color: #d1d5db;
   /* bg-gray-700 */
   color: #111827;
-  /* text-gray-300 */
+  /* text-gray-700 */
   padding: 8px 16px;
   border-radius: 9999px;
   /* rounded-full */
@@ -417,7 +417,7 @@ footer a {
   background-color: #d1d5db;
   /* bg-gray-700 */
   color: #111827;
-  /* text-gray-300 */
+  /* text-gray-700 */
   /* Smaller padding and font size by default for mobile */
   padding: 6px 12px;
   font-size: 12px;
@@ -481,7 +481,7 @@ footer a {
 .legal-content p {
   margin-bottom: 1rem;
   line-height: 1.625;
-  color: rgb(156 163 175);
+  color: #374151;
 }
 
 .legal-content ul {
@@ -489,7 +489,7 @@ footer a {
   list-style-position: inside;
   margin-bottom: 1rem;
   padding-left: 1rem;
-  color: rgb(156 163 175);
+  color: #374151;
 }
 
 .legal-content a {
